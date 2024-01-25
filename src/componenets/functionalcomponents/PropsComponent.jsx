@@ -1,6 +1,12 @@
+
 function PropsComponent (props){
+    const StyleAttrs={
+        backgroundColor:"yellow",
+        color:"black"
+
+    }
     return(
-        <div>
+        <div style={StyleAttrs}>
         Hello,{props.name} <br/>This is {props.course} class
         </div>
     )

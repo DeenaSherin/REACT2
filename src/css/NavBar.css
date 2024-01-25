@@ -1,0 +1,8 @@
+ol{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: skyblue;
+    margin:0px;
+    list-style-type: none;
+    padding:25px;
+}
