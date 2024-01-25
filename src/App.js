@@ -12,6 +12,7 @@ import About from './componenets/functionalcomponents/About';
 import Experience from './componenets/functionalcomponents/Experience';
 import Login from './componenets/functionalcomponents/Login';
 import Home from './componenets/functionalcomponents/Home';
+import Footer from './componenets/functionalcomponents/Footer';
 
 
 
@@ -36,10 +37,13 @@ function App() {
        {/*<PropsComponents1 location="India" city="Erode"/>*/}
       {/* <StateComponent/>*/}
        {/*<StateComponent2/>*/}
-    
+       <BrowserRouter>
+    <Footer/>
+    </BrowserRouter>
+
         
     </div>
-
+ 
   
   );
 }
