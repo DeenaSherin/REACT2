@@ -1,7 +1,8 @@
+import "../../css/color.css"
 const About = () =>{
     return(
         <div>
-      <h1>  This page is meant for your details</h1>
+      <h2>  This page is meant for your details</h2>
         </div>
     )
 }

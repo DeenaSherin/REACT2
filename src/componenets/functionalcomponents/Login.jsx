@@ -1,7 +1,9 @@
+import "../../css/color.css"
+
 const Login = () =>{
     return(
         <div>
-      <h1>  This page is meant for your login details</h1>
+      <h2>  This page is meant for your login details</h2>
         </div>
     )
 }
