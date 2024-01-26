@@ -1,8 +1,14 @@
 import "../../css/color.css"
+import { useState } from "react"
 const About = () =>{
+        const [college,updateCollege]=useState("KEC")
+        const updateClg=()=>{
+            updateCollege("Kongu Engineering College")
+        }
     return(
         <div>
-      <h2>  This page is meant for your details</h2>
+      <h2> Welcome to {college}</h2>
+      <button onDoubleClick={updateClg}>Update College Name</button>
         </div>
     )
 }

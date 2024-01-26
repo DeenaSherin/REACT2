@@ -14,6 +14,7 @@ import Login from './componenets/functionalcomponents/Login';
 import Home from './componenets/functionalcomponents/Home';
 import Footer from './componenets/functionalcomponents/Footer';
 import Content2 from './componenets/functionalcomponents/Content2';
+import Block from './componenets/functionalcomponents/Block';
 
 
 
@@ -27,6 +28,7 @@ function App() {
     <Route path='/About' element={<About/>}></Route>
     <Route path='/Experience' element={<Experience/>}></Route>
     <Route path='/Login' element={<Login/>}></Route>
+    <Route path='/Block' element={<Block/>}></Route>
 
     
     </Routes>
