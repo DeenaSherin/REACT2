@@ -8,6 +8,8 @@ const NavBar =()=> {
         <li><Link to="/Login">Login</Link></li>
         <li><Link to="/Experience">Experience</Link></li>
         <li><Link to="/Block">Counter</Link></li>
+        <li><Link to="/Reference">USEREF</Link></li>
+        <li><Link to="/Memo">useMemo</Link></li>
         </ol>
 
     )
