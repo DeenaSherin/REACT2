@@ -17,7 +17,7 @@ import Content2 from './componenets/functionalcomponents/Content2';
 import Block from './componenets/functionalcomponents/Block';
 import Reference from './componenets/functionalcomponents/useRef';
 import Memo from './componenets/functionalcomponents/Memo';
-
+import CallBack from './componenets/functionalcomponents/CallBack';
 
 
 function App() {
@@ -33,6 +33,8 @@ function App() {
     <Route path='/Block' element={<Block/>}></Route>
     <Route path='/Reference' element={<Reference/>}></Route>
     <Route path='/Memo' element={<Memo/>}></Route>
+    <Route path='/CallBack' element={<CallBack/>}></Route>
+    
 
     
     </Routes>

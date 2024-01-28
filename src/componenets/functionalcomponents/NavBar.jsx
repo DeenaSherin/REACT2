@@ -10,6 +10,8 @@ const NavBar =()=> {
         <li><Link to="/Block">Counter</Link></li>
         <li><Link to="/Reference">USEREF</Link></li>
         <li><Link to="/Memo">useMemo</Link></li>
+        <li><Link to="/CallBack">ADDING</Link></li>
+
         </ol>
 
     )
